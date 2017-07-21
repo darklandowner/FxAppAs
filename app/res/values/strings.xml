@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">纷享APP</string>
+    <string name="retry">网络不给力啊，请重试！</string>
+    <string name="mobile">您现在是在移动网络环境下，下载可能产生流量费用哦~</string>
+    <string name="storageNeeded">空间不足，请清理空间后重新尝试。</string>
+    <string name="downFail">下载失败，请检查您的网络，是否重新下载？</string>
+    <string name="updateFail">更新失败，请检查您的网络，是否重新下载？</string>
+    <string name="noGift">下载完成后可以领取礼包</string>
+    <string name="noticeTitle">纷享APP等待安装</string>
+    <string name="noticeMsg1">点击安装。</string>
+    <string name="noticeMsg2">豪礼立即领取。</string>
+    <string name="updateLauncher">现在升级纷享APP，获得更多精彩内容！</string>
+    <string name="copyGift">您的礼包码为%1$s，已经复制到剪切板。立即进入游戏兑换吧！</string>
+
+</resources>

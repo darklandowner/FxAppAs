@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:background="@drawable/bg" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0px"
+        android:layout_y="0px"
+        android:background="@drawable/border" />
+
+    <RelativeLayout
+        android:id="@+id/lor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="500px"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/left"
+            android:layout_width="126px"
+            android:layout_height="126px"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/up_01" />
+
+        <ImageButton
+            android:id="@+id/right"
+            android:layout_width="126px"
+            android:layout_height="126px"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/down_01" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="800px"
+        android:gravity="center|bottom"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/website"
+            android:layout_width="279px"
+            android:layout_height="93px"
+            android:background="@drawable/button_home_01" />
+
+        <ImageButton
+            android:id="@+id/down"
+            android:layout_width="238px"
+            android:layout_height="238px"
+            android:background="@drawable/button_start_01" />
+
+        <ImageButton
+            android:id="@+id/giftBtn"
+            android:layout_width="279px"
+            android:layout_height="93px"
+            android:background="@drawable/button_gift_03" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/progress"
+        android:layout_width="942px"
+        android:layout_height="240px"
+        android:layout_x="0px"
+        android:layout_y="1000px"
+        android:background="@drawable/loading_01"
+        android:scaleType="matrix" />
+
+    <TextView
+        android:id="@+id/textPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="900px"
+        android:padding="10sp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</FrameLayout>
